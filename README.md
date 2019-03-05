@@ -1,4 +1,6 @@
 # Theorem-Prover
 A resolution theorem prover for propositional logic
 
-Dissolves a list of propositions into conjunctive normal form, which it attempts to resolve into a contradiction by generating new clauses with something akin to breadth-first-search.
+Works by indirect proof: Dissolves a list of propositions and conclusion into conjunctive normal form, which it attempts to resolve by generating new clauses with something akin to breadth-first-search for a contradiction.
+
+If the conclusion is true, it will resolve.
